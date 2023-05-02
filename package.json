@@ -2,7 +2,7 @@
   "name": "catalog",
   "version": "1.0.0",
   "description": "",
-  "main": "index.jsx",
+  "main": "index.js",
   "scripts": {
     "start": "webpack serve --port 3000",
     "build": "NODE_ENV=production webpack"
