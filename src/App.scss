@@ -1,0 +1,29 @@
+* {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.wrapper {
+  width: calc(100vw - 200px);
+  height: 100%;
+  margin: 0 auto;
+  background-color: white;
+  max-width: 1400px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  //padding: 5px;
+  //border: 1px solid rgba(0, 0, 0, 0.1);
+  @media (max-width: 845px) {
+    width: calc(100vw - 30px);
+  }
+}
+
+.title {
+    padding: 10px;
+    text-align: center;
+}

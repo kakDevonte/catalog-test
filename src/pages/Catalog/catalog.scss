@@ -1,0 +1,17 @@
+.catalog {
+  position: relative;
+  margin-bottom: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.not-found {
+  margin: 25px;
+}

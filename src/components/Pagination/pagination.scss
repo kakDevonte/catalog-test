@@ -1,0 +1,28 @@
+.pagination {
+  li {
+    display: inline-flex;
+
+    a {
+      text-align: center;
+      width: 45px;
+      height: 45px;
+      padding: 10px;
+      //border: 1px solid #fe5f1e;
+      border-radius: 15px;
+      margin-right: 10px;
+      cursor: pointer;
+      color: black;
+
+      &:hover {
+        background-color: rgba(0, 0, 0, 0.1);
+        color: black;
+      }
+    }
+  }
+  .selected {
+    a {
+      background-color: rgba(0, 0, 0, 0.1);
+      color: black;
+    }
+  }
+}
